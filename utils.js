@@ -9,7 +9,7 @@ function guitarParser(html, item) {
 
         if(!html) reject();
 
-        let $ = cheerio.load(html);
+        var $ = cheerio.load(html);
 
         $('.wrapper .content').filter(function(){
             var data = $(this);
