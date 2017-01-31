@@ -1,7 +1,7 @@
 {
-  "name": "kitarakuu_parser",
+  "name": "node-html-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parse guitars from html",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
